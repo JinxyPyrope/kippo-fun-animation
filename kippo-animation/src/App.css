@@ -1,3 +1,5 @@
-
-
-
+.big-card {
+  width: 30vmin;
+  aspect-ratio: 5 / 7;
+  background-color: rgba(red);
+}
