@@ -1,8 +1,7 @@
-import bigCard from "../big-card/big-Card.css"
+import bigCard from "../big-card/big-card.css"
 
-
-import function bigCard() {
-
+const bigCard = {
+  
 }
 
 export default bigCard
