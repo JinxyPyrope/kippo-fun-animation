@@ -1,8 +1,11 @@
+import React from "react"
 import "./App.css"
-import BigCard from "./components/big-Card"
+import BigCard from "./components/BigCard"
 
-function App() {
-  return <BigCard className="big-card" />
+export default function App() {
+  return (
+    <div>
+      <BigCard />
+    </div>
+  )
 }
-
-export default App
