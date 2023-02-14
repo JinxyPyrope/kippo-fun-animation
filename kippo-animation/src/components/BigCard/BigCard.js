@@ -5,7 +5,7 @@ import "../GlobalCard.css"
 const BigCard = () => {
   return (
     <div className="big-card card">
-      <p className="testBox_content">Hello World</p>
+      <p className="test-big">Hello World</p>
     </div>
   )
 }
