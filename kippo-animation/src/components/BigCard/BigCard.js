@@ -1,9 +1,10 @@
 import React from "react"
-import "../components/testBox.css"
+import "../BigCard/BigCard.css"
+import "../GlobalCard.css"
 
 const BigCard = () => {
   return (
-    <div className="testBox">
+    <div className="big-card card">
       <p className="testBox_content">Hello World</p>
     </div>
   )
