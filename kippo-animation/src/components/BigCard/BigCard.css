@@ -3,22 +3,36 @@
   border-radius: 1vmin;
 }
 
-.big-card:nth-child(1) {
-  background-color: rgba(0, 0, 255, 0.5);
+/*General Setup for the big cards */
+.big-card:nth-child(2) {
   transform: translateX(-10%) rotate(-3deg);
 }
 
-.big-card:nth-child(2) {
-  background-color: rgba(0, 0, 255, 0.5);
+.big-card:nth-child(4) {
   transform: translateX(-10%);
 }
 
-.big-card:nth-child(3) {
-  background-color: rgba(0, 0, 255, 0.5);
+.big-card:nth-child(6) {
   transform: translateX(-6%) rotate(-3deg);
 }
 
-.big-card:nth-child(4) {
-  background-color: rgba(0, 0, 255, 0.5);
+.big-card:nth-child(8) {
   transform: translateX(10%, 3%) rotate(5deg);
+}
+/*General Setup for the big cards End*/
+
+.card-group:hover > .big-card:nth-child(2) {
+  transform: translate(-75%, 16%) rotate(-24deg);
+}
+
+.card-group:hover > .big-card:nth-child(4) {
+  transform: translate(-25%, 8%) rotate(-8deg);
+}
+
+.card-group:hover > .big-card:nth-child(6) {
+  transform: translate(25%, 8%) rotate(8deg);
+}
+
+.card-group:hover > .big-card:nth-child(8) {
+  transform: translate(75%, 16%) rotate(24deg);
 }

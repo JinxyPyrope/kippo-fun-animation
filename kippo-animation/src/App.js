@@ -6,12 +6,14 @@ import SmallCard from "./components/SmallCard/SmallCard"
 export default function App() {
   return (
     <div className="card-group">
-      <BigCard />
-      <BigCard />
-      <BigCard />
-      <BigCard />
-
       <SmallCard />
+      <BigCard />
+      <SmallCard />
+      <BigCard />
+      <SmallCard />
+      <BigCard />
+      <SmallCard />
+      <BigCard />
     </div>
   )
 }

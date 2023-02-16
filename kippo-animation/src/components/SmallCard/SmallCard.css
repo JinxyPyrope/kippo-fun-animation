@@ -1,8 +1,7 @@
 .small-card {
   width: 12vmin;
   border-radius: 2vmin;
-}
-
-.test-small {
-  color: blue;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
