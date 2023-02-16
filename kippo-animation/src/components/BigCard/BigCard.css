@@ -21,6 +21,8 @@
 }
 /*General Setup for the big cards End*/
 
+
+/*Hover Affect */
 .card-group:hover > .big-card:nth-child(2) {
   transform: translate(-75%, 16%) rotate(-24deg);
 }

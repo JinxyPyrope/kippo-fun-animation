@@ -1,6 +1,6 @@
 export const bigImages = [
   {
     id: 1,
-    image: "kippo-animationsrcImages\testImage.jpg"
+    image: "https://unsplash.com/photos/pX829a6ObhE"
   }
 ]

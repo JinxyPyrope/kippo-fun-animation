@@ -5,3 +5,19 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+.card-group:hover > .small-card:nth-child(1) {
+  transform: translate(200%, -160%) rotate(-15deg);
+}
+
+.card-group:hover > .small-card:nth-child(3) {
+  transform: translate(160%, 170%) rotate(15deg);
+}
+
+.card-group:hover > .small-card:nth-child(5) {
+  transform: translate(-200%, -170%) rotate(15deg);
+}
+
+.card-group:hover > .small-card:nth-child(7) {
+  transform: translate(-280%, 140%) rotate(-15deg);
+}
