@@ -1,6 +1,5 @@
 import React from "react"
 import "../SmallCard/SmallCard.css"
-import "../GlobalCard.css"
 
 const SmallCard = () => {
   return (

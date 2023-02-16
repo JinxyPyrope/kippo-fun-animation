@@ -1,6 +1,6 @@
 import React from "react"
 import "../BigCard/BigCard.css"
-import "../GlobalCard.css"
+
 
 const BigCard = () => {
   return (
