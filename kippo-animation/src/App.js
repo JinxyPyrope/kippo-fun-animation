@@ -7,6 +7,10 @@ export default function App() {
   return (
     <div className="card-group">
       <BigCard />
+      <BigCard />
+      <BigCard />
+      <BigCard />
+
       <SmallCard />
     </div>
   )
