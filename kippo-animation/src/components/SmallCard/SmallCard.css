@@ -1,5 +1,6 @@
 .small-card {
   width: 12vmin;
+  border-radius: 2vmin;
 }
 
 .test-small {

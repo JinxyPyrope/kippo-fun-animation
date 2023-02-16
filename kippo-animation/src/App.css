@@ -1,0 +1,9 @@
+.card-group,
+.card {
+  aspect-ratio: 5/7;
+}
+
+.card-group,
+.big-card {
+  width: 30vmin;
+}
