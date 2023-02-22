@@ -1,13 +1,6 @@
 import React from "react"
-import "../BigCard/BigCard.css"
-import "../data/data"
+import BigCardForm from "./BigCardForm"
 
-const BigCard = () => {
-  return (
-    <div className="big-card card">
-      <p className="test-big"></p>
-    </div>
-  )
+export default function BigCard({ imageUrl }) {
+  return <BigCardForm />
 }
-
-export default BigCard
